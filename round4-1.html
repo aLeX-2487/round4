@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    html{font-size: 62.5%}
+    body{padding: 0;margin: 0;background: gainsboro}
+    p{color:white;font-size:4vw; line-height:0}
+    .head{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow:hidden;
+        position: fixed;
+        left: 0%;
+        top:0;
+    }
+
+    .p-close{
+
+        width: 15%;
+        margin: 0;
+        padding:  1.2rem 0 1.2rem 0.5rem;
+
+        background:#99CCFF;
+        position: fixed;
+        left: 0%;
+        top:0;
+    }
+    .p-register{
+
+        width: 15%;
+        margin:  0;
+        padding:  1.25rem 0.5rem 1.2rem 0;
+        background:#99CCFF;
+        text-align: center;
+        position: fixed;
+        right: 0%;
+        buttom:0;
+    }
+    .p-login{
+
+        width: 70%;
+        margin: 0;
+        padding:  1.2rem 0;
+        text-align: center;
+        background:#99CCFF;
+        position: fixed;
+        left: 16%;
+        top:0;
+
+    }
+
+
+    .id{
+        background:white;
+        width:100%;
+
+        margin:5rem 0 0 0;
+        padding: 1rem 0;
+        float: left;
+        overflow: hidden;
+    }
+    .id img{
+        width: 5%;
+        margin:0;
+        padding: 0 2rem;
+        border-right-style:solid;
+        border-right-color:gainsboro;
+        float: left;
+        max-width:2.7rem; max-height:4rem;
+    }
+
+    }
+form{
+    margin: 0;
+    padding:1.5% 0 ;
+    width: 70%;
+     float: left;
+
+}
+input{
+    width:100%;
+    margin: 0;
+    padding:  0;
+    border:none;
+}
+.login{
+    width: 100%;
+    height: 100pt;
+    margin:2% 0 0 0;
+    padding: 2% 0;
+    text-align: center;
+    float: left;
+    background:#99CCFF ;
+}
+
+.footer{
+    width: 95%;
+    margin: 0;
+    padding:0 5% 0 0 ;
+    text-align: right;
+    float: left;
+}
+.button{background:#99CCFF;color:white;outline:medium; }
+
+</style>
+
+
+<body>
+<div class="head">
+    <div class="p-close">
+        <a href="#"  >
+            <input  class="button" type="submit" value="关闭" name="close" style="font-size: 1.8rem ">
+        </a>
+    </div>
+
+    <div class="p-login" >
+        <input  class="button" type="submit" value="登陆" name="login" style="font-size: 1.8rem">
+    </div>
+
+    <div class="p-register">
+        <a href="#";>
+            <input  class="button" type="submit" value="注册" name="register" style="font-size: 1.8rem" >
+        </a>
+
+    </div>
+</div>
+
+
+
+<div class="id">
+        <img src="id-phone.png">
+    <form>
+        <ul style="padding:0 0 0 7%;margin: 0">
+              <input type="text" name="number" placeholder="请输入手机号"  style="outline:medium">
+        </ul>
+    </form>
+
+</div>
+
+
+
+<div class="id" style="margin: 0.7rem 0 0 0">
+    <img src="id-sn.png">
+    <form>
+        <ul style="padding:0 0 0 7%;margin: 0 ">
+            <input type="password" name="sn" placeholder="请输入密码" style="outline:medium">
+        </ul>
+    </form>
+</div>
+
+<div class="login">
+
+            <a href="#";>
+                <button style="border:0;width:100%;color:white;background:#99CCFF;font-weight:bold;font-size: 5vw;letter-spacing: 3vw;outline:medium;">登陆</button>
+
+            </a>
+
+</div>
+
+<div class="footer">
+    <ul>
+        <li><a href="#" style="color: #99CCFF;font-weight:bold;font-size: 3vw">忘记密码</a> </li>
+    </ul>
+</div>
+
+
+</body>
+</html>
